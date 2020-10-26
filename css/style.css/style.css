@@ -1,0 +1,104 @@
+header {
+  text-align: center; }
+  header img {
+    width: 100%; }
+  header .header-background {
+    height: 100vh;
+    background-image: url(/bilder/header.png.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    width: 100vw; }
+
+.section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: right; }
+  .section-1 h2 {
+    font-size: 3.5rem;
+    font-weight: 900; }
+  .section-1 .under-heading {
+    text-align: right;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 100; }
+
+.section-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 100px; }
+  .section-2 .column-1 {
+    width: 40vw; }
+  .section-2 img {
+    margin-top: -1.5rem;
+    height: 100vh; }
+
+.section-3 {
+  height: 60vh;
+  background-color: #2B2E34; }
+
+.section-4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; }
+
+.section-5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; }
+
+.column-5 {
+  width: 50vw;
+  text-align: left;
+  font-size: 1.2rem;
+  line-height: 1.5rem; }
+
+.section-6 {
+  height: 100vh;
+  background-image: url(/bilder/Q1_newsletter-02.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center; }
+
+.column-6 {
+  width: 50vw;
+  text-align: center; }
+
+.column-6 h3 {
+  font-size: 2rem;
+  padding-bottom: 1.5rem; }
+
+footer {
+  height: 60vh;
+  background-color: #2B2E34;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  color: white; }
+
+.footer-column-1 {
+  width: 30vw; }
+
+.footer-column-2 {
+  text-align: right; }
+
+.footer-column-2 span {
+  font-style: italic; }
+
+* {
+  margin: 0;
+  padding: 0; }
