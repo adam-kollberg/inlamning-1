@@ -1,15 +1,9 @@
 header {
   text-align: center; }
+  header h1 {
+    padding-top: 2rem; }
   header img {
     width: 100%; }
-  header .header-background {
-    height: 100vh;
-    background-image: url(/bilder/header.png.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-    width: 100vw; }
 
 .section-1 {
   display: flex;
@@ -18,7 +12,7 @@ header {
   text-align: right; }
   .section-1 h2 {
     font-size: 3.5rem;
-    font-weight: 900; }
+    font-weight: 800; }
   .section-1 .under-heading {
     text-align: right;
     font-size: 1.5rem;
@@ -31,11 +25,21 @@ header {
   justify-content: center;
   align-items: center;
   padding: 100px; }
+  @media (max-width: 576px) {
+    .section-2 {
+      flex-direction: column; } }
   .section-2 .column-1 {
-    width: 40vw; }
+    width: 30vw; }
+    @media (max-width: 576px) {
+      .section-2 .column-1 {
+        width: 80vw;
+        padding: 1rem; } }
   .section-2 img {
-    margin-top: -1.5rem;
+    margin-top: -8rem;
     height: 100vh; }
+    @media (max-width: 576px) {
+      .section-2 img {
+        margin-top: 1rem; } }
 
 .section-3 {
   height: 60vh;
@@ -46,6 +50,9 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center; }
+
+.img-2 {
+  height: 100vh; }
 
 .section-5 {
   display: flex;
@@ -62,11 +69,11 @@ header {
   line-height: 1.5rem; }
 
 .section-6 {
-  height: 100vh;
+  height: 75vh;
   background-image: url(/bilder/Q1_newsletter-02.png);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -101,4 +108,5 @@ footer {
 
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: 'Montserrat', sans-serif; }

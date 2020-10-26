@@ -1,3 +1,6 @@
+@import "./variables.scss";
+@import "./mixins.scss";
+
 .section-2 {
     display: flex;
     flex-direction: row;
@@ -5,15 +8,38 @@
     align-items: center;
     padding: 100px;
 
+    @include sm {
+        flex-direction: column;
+    }
+   
+
+
+
 
     .column-1 {
-        width: 40vw;
+        width: 30vw;
 
-    }
+        @include sm {
+            width: 80vw;
+            padding: 1rem;
+        }
+        
+}
 
     img {
-        margin-top: -1.5rem;
+        margin-top: -8rem;
         height: 100vh;
+
+        @include sm {
+            margin-top: 1rem;
+        }
     }
 
 }
+
+
+
+
+
+
+

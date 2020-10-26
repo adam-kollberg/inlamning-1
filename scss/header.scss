@@ -1,23 +1,14 @@
 header {
     text-align: center;
 
+
+    h1 {
+        padding-top: 2rem;
+    }
+
     img {
         width: 100%;
-    }
-
-    .header-background {
-        height: 100vh;
-        background-image: url(/bilder/header.png.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0;
-        padding: 0;
-        width: 100vw;
-        
-    }
-
-
-    
+    }   
 
 }
 
