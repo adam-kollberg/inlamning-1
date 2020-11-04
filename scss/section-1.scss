@@ -1,4 +1,5 @@
-
+@import "./variables.scss";
+@import "./mixins.scss";
 
 .section-1 {
     display: flex;
@@ -12,12 +13,20 @@
     h2 {
         font-size: 3.5rem;
         font-weight: 800; 
+
+        @include sm {
+            font-size: 2rem;
+            }
       }
 .under-heading {
     text-align: right;
     font-size: 1.5rem;
     padding-top: 1rem;
     font-weight: 100;
+    @include sm {
+        padding-right: 2rem;
+        font-size: 1.2rem;
+        }
 
 }
 

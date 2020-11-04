@@ -7,6 +7,10 @@ footer {
     justify-content: space-evenly;
     align-items: center;
     color: white;
+
+    @include sm {
+        flex-direction: column;
+        }
    
 
 }
@@ -14,13 +18,25 @@ footer {
 
 .footer-column-1 {
 width: 30vw;
+
+h4 {
+    padding-bottom: 1rem;
+}
+@include sm {
+    width: 80vw;
+    }
 }
 
 .footer-column-2 {
 text-align: right;
-}
 
-
-.footer-column-2 span {
+span {
     font-style: italic;
 }
+
+@include sm {
+    text-align: left;
+    }
+}
+
+
