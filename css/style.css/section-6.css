@@ -11,9 +11,13 @@
   height: 75vh; }
 
 .column-6 {
-  width: 80vw;
+  width: 40vw;
   text-align: center;
-  padding-top: 60px; }
+  padding-top: 60px;
+  font-size: 1.5rem; }
+  @media (max-width: 576px) {
+    .column-6 {
+      width: 80vw; } }
 
 .column-6 h3 {
   font-size: 2rem;

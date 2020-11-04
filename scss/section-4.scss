@@ -18,7 +18,12 @@
     padding-right: 10rem;
     text-align: right;
     line-height: 1.5rem;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
+
+
+    p {
+        padding-top: 2rem;
+    }
 
     @include sm {
     text-align: center;
