@@ -1,5 +1,5 @@
 footer {
-   
+   /* Height footer and background */
     height: 60vh;
     background-color: #2B2E34;
     display: flex;
@@ -10,6 +10,7 @@ footer {
     font-size: 1.5rem;
     padding: 1rem;
 
+    /* Column on mobile */
     @include sm {
         flex-direction: column;
         }
@@ -17,13 +18,15 @@ footer {
 
 }
 
-
+/* width column-1 */
 .footer-column-1 {
 width: 30vw;
 
 h4 {
     padding-bottom: 1rem;
 }
+
+/* width mobile */
 @include sm {
     width: 80vw;
     }

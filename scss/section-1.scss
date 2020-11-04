@@ -1,6 +1,11 @@
+
+/* imported mizins variables */
+
 @import "./variables.scss";
 @import "./mixins.scss";
 
+
+/* First section display */
 .section-1 {
     display: flex;
     flex-direction: column;
@@ -9,7 +14,7 @@
 
 
 
-    
+    /* h2 font-size: different mobile and desktop */
     h2 {
         font-size: 3.5rem;
         font-weight: 800; 
@@ -18,6 +23,8 @@
             font-size: 2rem;
             }
       }
+
+      /* under heading font-size: different mobile and desktop */
 .under-heading {
     text-align: right;
     font-size: 1.5rem;

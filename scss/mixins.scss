@@ -1,12 +1,14 @@
 @import "./variables.scss";
 
 
-
+/* mixin- mobile */
 @mixin sm {
     @media (max-width: #{$screen-sm-min}) {
         @content;
     }
  }
+
+ /* mixin- tablet */
  
  // Medium devices
  @mixin md {
